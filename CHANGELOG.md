@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.247.4-prerelease.1661278786073](https://github.com/bigcommerce/checkout-js/compare/v1.242.1...v1.247.4-prerelease.1661278786073) (2022-08-23)
+
+
+### Features
+
+* **checkout:** CHECKOUT-6817 Update Sentry version and config ([#966](https://github.com/bigcommerce/checkout-js/issues/966)) ([16c3c2a](https://github.com/bigcommerce/checkout-js/commit/16c3c2a1bd43569052a31bf0c3b68382f3824c9a))
+* **checkout:** CHECKOUT-6896 Add STOREURL as env variable ([#968](https://github.com/bigcommerce/checkout-js/issues/968)) ([269c74d](https://github.com/bigcommerce/checkout-js/commit/269c74d76867074fd4f5860d0803dd1819298a3b))
+* **checkout:** STRF-9829 Redirect to cart on sign-out if prices are hidden from guests ([b482e59](https://github.com/bigcommerce/checkout-js/commit/b482e592c3fd09b62a91d5a93490919b2fe7479b))
+* **payment:** INT-6115 Worldpay - remove unnecessary iframe ([708af7e](https://github.com/bigcommerce/checkout-js/commit/708af7e1993415c5d68a3dd5ce07f76b8931e987))
+* **payment:** PAYPAL-1613 removed unnecessary Braintree Venmo logic from PaymentSubmitButton component ([#977](https://github.com/bigcommerce/checkout-js/issues/977)) ([5cf70e4](https://github.com/bigcommerce/checkout-js/commit/5cf70e4bb2d24558790b75841ba9c045bd18f385))
+* **payment:** STRIPE-82 Add array in back, to receive it and use it in front ([0cc8fe6](https://github.com/bigcommerce/checkout-js/commit/0cc8fe65922f44b1b893331611be19a57ea1f470))
+* **payment:** STRIPE-82 Add code to show images on the list ([93280f1](https://github.com/bigcommerce/checkout-js/commit/93280f11ab671991a2223fcc6c73f93ece5f0961))
+
+
+### Bug Fixes
+
+* **order:** INT-4776 Fix wrong mandate translation keys ([1455e82](https://github.com/bigcommerce/checkout-js/commit/1455e825e2051fff50678da23ec521c8537df456))
+* **payment:** CHECKOUT-5889 Fix issue with element detach modal ([#967](https://github.com/bigcommerce/checkout-js/issues/967)) ([58a0669](https://github.com/bigcommerce/checkout-js/commit/58a066947d6976e7bb9ed7f38815708c9bf79f37))
+* **payment:** INT-5854 [Mollie] Klarna is not available if cart contains digital products ([#938](https://github.com/bigcommerce/checkout-js/issues/938)) ([3ca97af](https://github.com/bigcommerce/checkout-js/commit/3ca97af516c24b6057f0f14946c564bbc2a3262a))
+* **payment:** INT-6328 Bluesnap open a new tab insted of using iframe to complete order ([8481758](https://github.com/bigcommerce/checkout-js/commit/848175873fed4feb9cf4b825b0dfc1ea7e2f4c51))
+* **payment:** STRIPE-53 Change error message of 3ds Auth Fail ([#940](https://github.com/bigcommerce/checkout-js/issues/940)) ([f7b35d1](https://github.com/bigcommerce/checkout-js/commit/f7b35d1e10ea8ec2d5616992523ddcafd76425eb))
+
+
+### Code Refactoring
+
+* **checkout:** CHECKOUT-6896 Running e2e tests in CircleCI ([#979](https://github.com/bigcommerce/checkout-js/issues/979)) ([b5607ea](https://github.com/bigcommerce/checkout-js/commit/b5607ea2d5d6827a544dac184e451652d4d49352))
+* **checkout:** CHECKOUT-6899 Export PaymentMethodResolveId through payment integration API package ([9f162b6](https://github.com/bigcommerce/checkout-js/commit/9f162b6c4492a6e76a1a2bfed74ed0d8d7c6bccf))
+* **checkout:** CHECKOUT-6899 Move method-specific interfaces out of payment integration API package ([7d1dd2b](https://github.com/bigcommerce/checkout-js/commit/7d1dd2be34783861df4dee535786fa2b0a1214b8))
+* **checkout:** CHECKOUT-6899 Move mocks out of payment integration API package ([940122c](https://github.com/bigcommerce/checkout-js/commit/940122c574477e1edf4da2e75585583d77902dc8))
+
 ### [1.247.3](https://github.com/bigcommerce/checkout-js/compare/v1.247.2...v1.247.3) (2022-08-22)
 
 
