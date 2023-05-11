@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.314.1-prerelease.1683820779386](https://github.com/bigcommerce/checkout-js/compare/v1.314.0...v1.314.1-prerelease.1683820779386) (2023-05-11)
+
+
+### Features
+
+* **payment:** INT-7573 Add config of Access Worldpay GooglePay ([d9540f6](https://github.com/bigcommerce/checkout-js/commit/d9540f642d9f690089cb0344c26d3eb698e1be95))
+* **payment:** INT-7573 add worldpay to googlepay specs ([0d0f844](https://github.com/bigcommerce/checkout-js/commit/0d0f84411a7727d16431a299414023337a6c5cd1))
+* **payment:** PAYPAL-1713 bump checkout-sdk ([e0f40ad](https://github.com/bigcommerce/checkout-js/commit/e0f40ad90f3f4d85317d76cb249604a4885840b3))
+* **payment:** PAYPAL-1713 new package with Braintree ACH method ([#1246](https://github.com/bigcommerce/checkout-js/issues/1246)) ([1783347](https://github.com/bigcommerce/checkout-js/commit/17833476faf26f23ffd23cb5bbf5599a03b308a1))
+
 ## [1.314.0](https://github.com/bigcommerce/checkout-js/compare/v1.313.1...v1.314.0) (2023-05-08)
 
 
